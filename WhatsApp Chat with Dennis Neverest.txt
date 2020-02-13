@@ -1,0 +1,95 @@
+
+18/12/2019, 12:10 - Dennis Neverest: <Media omitted>
+18/12/2019, 22:14 - minjirekelvin: <Media omitted>
+23/12/2019, 20:22 - Dennis Neverest: <Media omitted>
+23/12/2019, 22:33 - minjirekelvin: Great nice👏🏻👏🏻
+26/12/2019, 19:34 - minjirekelvin: https://towardsdatascience.com/web-scraping-101-in-python-35f8653b1c97
+26/12/2019, 19:35 - minjirekelvin: Found a way where we don't need spider...will implement next year or rather next month sounds better 😂😂
+04/01/2020, 19:43 - minjirekelvin: Hey happy new year
+06/01/2020, 09:43 - Dennis Neverest: <Media omitted>
+08/01/2020, 21:32 - Dennis Neverest: <Media omitted>
+10/01/2020, 09:58 - minjirekelvin: Github username: Minjire
+10/01/2020, 10:05 - Dennis Neverest: check your email
+10/01/2020, 10:07 - minjirekelvin: 👍🏻
+11/01/2020, 10:40 - minjirekelvin: Morning
+11/01/2020, 10:40 - minjirekelvin: Any breakthrough on your side?
+11/01/2020, 19:57 - Dennis Neverest: Not yes. Havent looked at it
+12/01/2020, 00:46 - Dennis Neverest: I have fixed it. I just allowed the spider to do more that http 200-300 series
+12/01/2020, 00:52 - minjirekelvin: The code on the repo?
+12/01/2020, 00:53 - Dennis Neverest: Yeah
+12/01/2020, 00:54 - minjirekelvin: I'll check it out
+12/01/2020, 00:54 - minjirekelvin: Seems like nasuck sana in fixing these errors
+12/01/2020, 00:56 - Dennis Neverest: Nope, i just have coded a little longer than you...soon youll be figuring out these errors easily...mazoea tu
+12/01/2020, 00:57 - minjirekelvin: Alright hopefully get there soon...it's a great challenge
+12/01/2020, 01:22 - minjirekelvin: I had tried the same if statement but wasn't working
+12/01/2020, 01:22 - minjirekelvin: Guess I did it the wrong way
+12/01/2020, 01:25 - minjirekelvin: Was thinking instead of using the specific codes like 500, we can use the in built array "retry_http_codes" for scrapy
+12/01/2020, 01:30 - Dennis Neverest: Nice idea...try it see if it works
+12/01/2020, 01:31 - minjirekelvin: Sure
+12/01/2020, 01:31 - Dennis Neverest: And sleep..lol
+12/01/2020, 01:31 - minjirekelvin: 😂😂 of course I will
+12/01/2020, 01:32 - minjirekelvin: You too
+12/01/2020, 02:21 - Dennis Neverest: Wazi
+12/01/2020, 15:36 - minjirekelvin: This didn't work
+12/01/2020, 15:36 - minjirekelvin: Updated the serial selector
+12/01/2020, 15:36 - minjirekelvin: Afternoon
+13/01/2020, 11:30 - minjirekelvin: Morning...got it running on GCP??
+13/01/2020, 14:51 - Dennis Neverest: Hello
+13/01/2020, 14:52 - minjirekelvin: Yep..anything?
+14/01/2020, 13:22 - Dennis Neverest: Text me
+14/01/2020, 13:22 - minjirekelvin: This...extracting the data
+14/01/2020, 13:23 - Dennis Neverest: Let me check in a few. Left it running
+14/01/2020, 13:23 - minjirekelvin: Alright no problem
+14/01/2020, 18:30 - minjirekelvin: Hi...what's the progress?
+15/01/2020, 22:21 - Dennis Neverest: <Media omitted>
+15/01/2020, 22:21 - Dennis Neverest: nikumbushe
+15/01/2020, 23:16 - minjirekelvin: Sure
+16/01/2020, 05:06 - Dennis Neverest: <Media omitted>
+16/01/2020, 05:06 - Dennis Neverest: Ill check @8 am
+16/01/2020, 08:29 - Dennis Neverest: It stopped again, thy turned off their server. Or there is a blocking fire wall
+16/01/2020, 08:49 - minjirekelvin: It stopped after extracting how many?
+16/01/2020, 08:50 - Dennis Neverest: 18k
+16/01/2020, 08:50 - minjirekelvin: Almost the same...but it didn't show any errors?
+16/01/2020, 08:51 - Dennis Neverest: The site has been pulled or something
+16/01/2020, 08:52 - minjirekelvin: <Media omitted>
+16/01/2020, 08:52 - minjirekelvin: Had you guys already pitched to them about their vulnerability?
+16/01/2020, 08:52 - Dennis Neverest: imerudi saa hii i checked sometime ago.
+16/01/2020, 08:53 - Dennis Neverest: I hope the person who is supposed to do it hasnt. Let me restart it tonight.. maybe during the day they are monitoring traffic
+16/01/2020, 08:53 - minjirekelvin: Maybe their servers also go home after a days work 😂😅
+16/01/2020, 08:54 - minjirekelvin: Alright no problem
+17/01/2020, 09:33 - minjirekelvin: Morning...was last night successful?
+17/01/2020, 09:55 - Dennis Neverest: Let me see
+17/01/2020, 10:05 - Dennis Neverest: <Media omitted>
+17/01/2020, 10:20 - minjirekelvin: And still continuing??
+18/01/2020, 23:18 - Dennis Neverest: 450k and counting
+19/01/2020, 01:49 - minjirekelvin: Awesome
+19/01/2020, 01:50 - minjirekelvin: 500k plus would be great
+19/01/2020, 10:08 - Dennis Neverest: http://perimap.site/static/data.csv
+20/01/2020, 19:42 - minjirekelvin: Sent
+20/01/2020, 19:52 - minjirekelvin: https://github.com/Minjire/scrapy/invitations
+21/01/2020, 16:28 - minjirekelvin: Niaje...you at the office?
+26/01/2020, 11:49 - minjirekelvin: Niaje hope you doing fine
+26/01/2020, 11:50 - minjirekelvin: On which days do you go to the other offices so I can know how I can get to work with the data science team over there
+26/01/2020, 14:13 - Dennis Neverest: Mon Tu
+26/01/2020, 14:20 - Dennis Neverest: This message was deleted
+26/01/2020, 16:12 - minjirekelvin: Ooh wazi
+28/01/2020, 11:58 - minjirekelvin: Afternoon....any feedback yet??
+28/01/2020, 11:59 - minjirekelvin: And also were there any other statistics that were important or required other than the ones I sent to the group??
+28/01/2020, 12:00 - Dennis Neverest: The ones we do have are good for now
+28/01/2020, 12:01 - minjirekelvin: What about the total insurance policy value??
+28/01/2020, 12:01 - Dennis Neverest: Its okay for now
+28/01/2020, 12:02 - minjirekelvin: And what you were talking about displaying them on a dashboard using javascript?
+31/01/2020, 18:48 - minjirekelvin: What do you mean by the hub??
+03/02/2020, 09:52 - minjirekelvin: Morning is it possible to get another day cz monday I have some serious classes that I can't miss
+04/02/2020, 17:33 - minjirekelvin: Hi never got your response on this
+04/02/2020, 17:33 - minjirekelvin: And this
+04/02/2020, 17:33 - minjirekelvin: 🤦🏻‍♂🤦🏻‍♂
+04/02/2020, 17:34 - Dennis Neverest: Hello there, i actually wanted to meet you
+04/02/2020, 17:35 - minjirekelvin: No problem...I can be at the office at around 7
+04/02/2020, 17:35 - minjirekelvin: Is that time okay with you?
+11/02/2020, 12:24 - Dennis Neverest: https://www.youtube.com/watch?v=uGYJuOyIvzs
+12/02/2020, 17:25 - minjirekelvin: Hi...assist me with the project document
+12/02/2020, 17:25 - Dennis Neverest: emai
+12/02/2020, 17:25 - minjirekelvin: Email
+12/02/2020, 17:25 - minjirekelvin: ??
+12/02/2020, 17:25 - minjirekelvin: minjirekelvin@gmail.com
