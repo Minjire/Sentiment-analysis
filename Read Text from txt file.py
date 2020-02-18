@@ -24,13 +24,6 @@ with open(file_name, encoding="utf8") as fh:
 print(dict)
 
 
-# In[41]:
-
-
-dict[0][1]
-
-
-# In[ ]:
 
 
 
