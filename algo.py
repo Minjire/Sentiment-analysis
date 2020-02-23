@@ -5,10 +5,11 @@
 
 
 file_name = "WhatsApp Chat with Dennis Neverest.txt"
-dict = {}
+
+messages=[]
 count = 0
 
-with open(file_name, encoding="utf8") as fh:
+with open(file_name) as fh:
     for line in fh:
         #remove leading and trailing characters
         line = line.strip()
@@ -16,12 +17,12 @@ with open(file_name, encoding="utf8") as fh:
         if line:
             time, description = line.strip().split('-', 1)
             name, message = description.strip().split(':', 1)
-            dict[count] = [time,name,message.strip()]
+            messages.append({"time":time,"name":name,"message":message.strip()})
             count+=1
         else: continue
 
 
-print(dict)
+print(messages)
 
 
 
