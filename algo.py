@@ -4,7 +4,7 @@
 # In[46]:
 
 
-file_name = "WhatsApp Chat with Dennis Neverest.txt"
+file_name = "whatsapp_texts.txt"
 
 messages=[]
 count = 0
