@@ -42,7 +42,7 @@ model = keras.Sequential()
 
 # word embedding layer to attempt to group words with almost similar meaning/determine the meaning of each word....
 # in the sentence by mapping each word to a position in vector space in this case of dimension 16
-model.add(keras.layers.Embedding(100000, 16))
+model.add(keras.layers.Embedding(100000, output_dim=16, input_length=250))
 
 # scales down our data's dimension to make it easier computationally for our model in the later layers
 model.add(keras.layers.GlobalAveragePooling1D())
@@ -73,6 +73,16 @@ print("\n")
 print(results)
 
 model.save("model1.h5")  # name it whatever you want but end with .h5
+
+#load model
+model = keras.models.load_model('model1.h5')
+# convert model to tensorflow lite file
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+#converter = tf.lite.TFLiteConverter.from_keras_model(model)
+tflite_model = converter.convert()
+
+open("model1.tflite", "wb").write(tflite_model)
+
 
 '''
 
