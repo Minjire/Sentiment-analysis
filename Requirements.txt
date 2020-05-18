@@ -1,2 +1,7 @@
 tensorflow
 python3
+pandas
+pickle
+operator
+numpy
+sklearn
