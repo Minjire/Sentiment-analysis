@@ -3,6 +3,7 @@ import pandas as pd
 from tensorflow import keras
 from sklearn.model_selection import train_test_split
 import numpy as np
+import tensorflow as tf
 
 # %% load and combine datasets
 df1 = pd.read_csv('imdbdata.csv', index_col=0)
@@ -22,6 +23,11 @@ pkl_file.close()
 
 # reverse that dictionary so we can use integers as keys that map to each word
 reverse_word_index = dict([(value, key) for (key, value) in word_index.items()])
+
+# save dictionary to txt file
+with open("index.txt", "w", encoding='utf-8') as myfile:
+    for key in sorted(reverse_word_index):
+        myfile.write(reverse_word_index[key] + " " + str(key) + "\n")
 
 
 #  this function will return the decoded (human readable) reviews
@@ -58,7 +64,6 @@ print(i)
 print(len(x))
 print(len(encoded_x))
 
-
 # %% split data to train and test
 train_data, test_data, train_labels, test_labels = train_test_split(encoded_x, y, test_size=0.2)
 
@@ -66,7 +71,6 @@ train_data, test_data, train_labels, test_labels = train_test_split(encoded_x, y
 train_data = keras.preprocessing.sequence.pad_sequences(train_data, value=word_index["<PAD>"], padding="post",
                                                         maxlen=250)
 test_data = keras.preprocessing.sequence.pad_sequences(test_data, value=word_index["<PAD>"], padding="post", maxlen=250)
-
 
 # %% model development
 # define model
@@ -107,3 +111,13 @@ print(results)
 
 # %%
 model.save("refinedmodel.h5")  # name it whatever you want but end with .h5
+
+# %% convert model to tflite
+# load model
+model = keras.models.load_model('refinedmodel1.h5')
+# convert model to tensorflow lite file
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+# converter = tf.lite.TFLiteConverter.from_keras_model(model)
+tflite_model = converter.convert()
+
+open("refinedmodel1.tflite", "wb").write(tflite_model)
